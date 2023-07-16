@@ -1,6 +1,6 @@
 package pro.sky.java.homeworks.course2.lesson1;
 
-public class Bicycle extends Transport{
+public class Bicycle extends pro.sky.java.homeworks.course2.lesson1.Transport {
 
 
     public Bicycle(String modelName, int wheelsCount) {

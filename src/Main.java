@@ -7,7 +7,19 @@ public class Main {
     public static void main(String[] args) {
 
         Car Car = new Car("Car");
-
         Car.checkEngine();
+
+        Truck Truck = new Truck("Truck", 8);
+        Truck.checkTrailer();
+
+        Bicycle Bicycle = new Bicycle("Bycycle", 2);
+        Bicycle.updateTyre();
+
+        ServiceStation ServiceStation = new ServiceStation();
+        ServiceStation.check(Car);
+        ServiceStation.check(Truck);
+        ServiceStation.check(Bicycle);
+
+
     }
 }

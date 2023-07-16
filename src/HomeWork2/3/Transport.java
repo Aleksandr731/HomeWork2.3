@@ -2,7 +2,7 @@ package pro.sky.java.homeworks.course2.lesson1;
 
 public abstract class Transport {
 
-    private String modelName;
+    private final String modelName;
     private int wheelsCount;
 
     public Transport(String modelName, int wheelsCount) {
@@ -12,5 +12,15 @@ public abstract class Transport {
 
     public void updateTyre() {
         System.out.println("Меняем покрышку");
+    }
+
+    public String getModelName() {
+        return modelName;
+    }
+
+    public void servise() {
+        for (int i = 0; i < this.wheelsCount; i++) {
+            this.updateTyre();
+        }
     }
 }

@@ -1,6 +1,6 @@
 package pro.sky.java.homeworks.course2.lesson1;
 
-public class Car extends MotorTransport{
+public class Car extends pro.sky.java.homeworks.course2.lesson1.MotorTransport {
 
 
     public Car(String modelName, int wheelsCount) {
