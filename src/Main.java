@@ -1,24 +1,19 @@
-import pro.sky.java.homeworks.course2.lesson1.Bicycle;
-import pro.sky.java.homeworks.course2.lesson1.Car;
-import pro.sky.java.homeworks.course2.lesson1.ServiceStation;
-import pro.sky.java.homeworks.course2.lesson1.Truck;
-
 public class Main {
     public static void main(String[] args) {
 
-        Car Car = new Car("Car");
+        Car car = new Car("Car");
         Car.checkEngine();
 
-        Truck Truck = new Truck("Truck", 8);
+        Truck truck = new Truck("Truck", 8);
         Truck.checkTrailer();
 
-        Bicycle Bicycle = new Bicycle("Bycycle", 2);
+        Bicycle bicycle = new Bicycle("Bycycle", 2);
         Bicycle.updateTyre();
 
         ServiceStation ServiceStation = new ServiceStation();
-        ServiceStation.check(Car);
-        ServiceStation.check(Truck);
-        ServiceStation.check(Bicycle);
+        ServiceStation.check(car);
+        ServiceStation.check(truck);
+        ServiceStation.check(bicycle);
 
 
     }
