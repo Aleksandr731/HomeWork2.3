@@ -8,7 +8,7 @@ public abstract class Transport {
         this.wheelsCount = wheelsCount;
     }
 
-    public static void updateTyre() {
+    public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
 

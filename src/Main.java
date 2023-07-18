@@ -2,13 +2,13 @@ public class Main {
     public static void main(String[] args) {
 
         Car car = new Car("Car");
-        Car.checkEngine();
+        car.checkEngine();
 
         Truck truck = new Truck("Truck", 8);
-        Truck.checkTrailer();
+        truck.checkTrailer();
 
         Bicycle bicycle = new Bicycle("Bycycle", 2);
-        Bicycle.updateTyre();
+        bicycle.updateTyre();
 
         ServiceStation ServiceStation = new ServiceStation();
         ServiceStation.check(car);

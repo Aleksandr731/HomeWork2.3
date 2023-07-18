@@ -4,7 +4,7 @@ public class Truck extends MotorTransport {
         super(modelName, wheelsCount);
     }
 
-    public static void checkTrailer() {
+    public void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
 
